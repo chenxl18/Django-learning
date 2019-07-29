@@ -30,4 +30,5 @@ urlpatterns = [
     # url包含
     url(r'^route_base/', include('apps.route_base.urls',namespace='route_base')),
     url(r'^route_resolve/', include('apps.route_resolve.urls', namespace='route_resolve')),
+    url(r'django_templates/',include('apps.django_templates.urls',namespace='django_templates')),
 ]

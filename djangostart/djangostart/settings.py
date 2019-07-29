@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'app01',
     'apps.route_base',
     'apps.route_resolve',
+    'apps.django_templates',
 ]
 
 MIDDLEWARE = [
